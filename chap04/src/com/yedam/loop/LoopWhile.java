@@ -19,49 +19,49 @@ public class LoopWhile {
 		//event(trigger) 프로그램 종료 -> break;
 		boolean run = true;
 		Scanner sc = new Scanner(System.in);
-//		while(run) {
-//			System.out.println("1. 덧셈 | 2. 뺄셈 | 3. 곱셈 | 4. 종료");
-//			System.out.println("입력>");
-//			
-//			int num = Integer.parseInt(sc.nextLine());
-//			
-//			switch(num) {
-//			case 1:
-//				System.out.println("더하고자 하는 두 수를 입력");
-//				System.out.println("1>");
-//				int num1 = Integer.parseInt(sc.nextLine());
-//				System.out.println("2>");
-//				int num2 = Integer.parseInt(sc.nextLine());
-//				int result = num1 + num2;
-//				System.out.println(num1 + " , " + num2 + "의 결과" + result);
-//				break;
-//			case 2:
-//				System.out.println("빼고자 하는 두 수를 입력");
-//				System.out.println("1>");
-//				int num3 = Integer.parseInt(sc.nextLine());
-//				System.out.println("2>");
-//				int num4 = Integer.parseInt(sc.nextLine());
-//				int result1 = num3 - num4;
-//				System.out.println(num3 + " , " + num4 + "의 결과" + result1);
-//				break;
-//			case 3:
-//				System.out.println("곱하고자 하는 두 수를 입력");
-//				System.out.println("1>");
-//				int num5 = Integer.parseInt(sc.nextLine());
-//				System.out.println("2>");
-//				int num6 = Integer.parseInt(sc.nextLine());
-//				int result2 = num5 * num6;
-//				System.out.println(num5 + " , " + num6 + "의 결과" + result2);
-//				break;
-//			case 4:
-//				run = false;
-//				System.out.println("end of prog");
-//				break;
-//			default:
-//				System.out.println("1~4사이 수를 입력해주세요.");
-//				break;
-//			}
-//		}
+		while(run) {
+			System.out.println("1. 덧셈 | 2. 뺄셈 | 3. 곱셈 | 4. 종료");
+			System.out.println("입력>");
+			
+			int num = Integer.parseInt(sc.nextLine());
+			
+			switch(num) {
+			case 1:
+				System.out.println("더하고자 하는 두 수를 입력");
+				System.out.println("1>");
+				int num1 = Integer.parseInt(sc.nextLine());
+				System.out.println("2>");
+				int num2 = Integer.parseInt(sc.nextLine());
+				int result = num1 + num2;
+				System.out.println(num1 + " , " + num2 + "의 결과" + result);
+				break;
+			case 2:
+				System.out.println("빼고자 하는 두 수를 입력");
+				System.out.println("1>");
+				int num3 = Integer.parseInt(sc.nextLine());
+				System.out.println("2>");
+				int num4 = Integer.parseInt(sc.nextLine());
+				int result1 = num3 - num4;
+				System.out.println(num3 + " , " + num4 + "의 결과" + result1);
+				break;
+			case 3:
+				System.out.println("곱하고자 하는 두 수를 입력");
+				System.out.println("1>");
+				int num5 = Integer.parseInt(sc.nextLine());
+				System.out.println("2>");
+				int num6 = Integer.parseInt(sc.nextLine());
+				int result2 = num5 * num6;
+				System.out.println(num5 + " , " + num6 + "의 결과" + result2);
+				break;
+			case 4:
+				run = false;
+				System.out.println("end of prog");
+				break;
+			default:
+				System.out.println("1~4사이 수를 입력해주세요.");
+				break;
+			}
+		}
 		
 		//게임 만들기
 		//컴퓨터와 가위, 바위, 보

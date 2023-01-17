@@ -10,8 +10,8 @@ public class StudentAry {
 		int subjectNum = 0;
 		int[] scores = null;
 		Scanner sc = new Scanner(System.in);
-		//int no;
-		//int[] ary;
+	
+	
 		
 		while(true) {
 			System.out.println("====================================");
